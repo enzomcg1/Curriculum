@@ -1,0 +1,28 @@
+header{
+    background-color: black;
+    text-align: center;
+    color: rgb(55, 185, 23);
+    padding: 25px;
+    border-radius: 5%;
+    
+   
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    background-color: rgb(255, 255, 255);
+}
+main{
+    margin: 30px 200px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    padding: 5px;
+    text-decoration: none;
+}
+section{
+    padding: 25px;
+    border-bottom: 3px rgb(237, 12, 12)solid;
+}
