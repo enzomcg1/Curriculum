@@ -1,9 +1,10 @@
 header{
-    background-color: black;
+    background-color: rgb(210, 30, 30);
     text-align: center;
-    color: rgb(55, 185, 23);
+    color: rgb(254, 254, 254);
     padding: 25px;
-    border-radius: 5%;
+    
+    size-adjust: 50px;
     
    
 }
@@ -11,9 +12,10 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     background-color: rgb(255, 255, 255);
+    margin: 0%;
 }
 main{
-    margin: 30px 200px;
+    margin: 30px 100px;
 }
 nav{
     text-align: center;
@@ -26,3 +28,42 @@ section{
     padding: 25px;
     border-bottom: 3px rgb(237, 12, 12)solid;
 }
+#RafaG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 10%;
+}
+#descri{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color:red;
+}
+#enlaces{
+    padding: 3%;
+    size-adjust: 50px;
+}
+nav {
+    background-color: rgb(210, 30, 30);
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgb(237, 12, 12);
+    border-radius: 5px;
+}
+
+
+

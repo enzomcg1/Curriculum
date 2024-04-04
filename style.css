@@ -25,11 +25,51 @@ h2{
 }
 
 .blue{
-    background-color: blue !important;
+    background-color: rgb(235, 93, 37) !important;
 }
 
 img{
 display: block;
 margin: auto;
 width: 50%;
+}
+p{
+    width: auto;
+    animation-duration: 3s;
+    animation-name: slidein;
+    border-radius: 5%;
+}
+@keyframes slidein{
+    from{
+        margin-left: 300%;
+        width: 100%
+    }
+    to{
+        margin-left:0%;
+        width:100%;
+    }
+}
+.blue{
+    
+    border-radius: 5%;
+   
+}
+img{
+    animation-duration: 5s;
+    animation-name: difum;
+}
+@keyframes difum{
+    0%{opacity: 0;}
+    10%{opacity:1;}
+    50%{opacity:0;}
+    75%{opacity:1;}
+    90%{opacity:0}
+}
+.sup
+{
+    font-size: medium;
+    text-align: center;
+}
+#secu{
+    text-align: center;
 }
